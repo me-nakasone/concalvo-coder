@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box; }
+
+.container__index {
+  margin: 0%;
+  padding: 0; }
+
+* {
+  font-family: 'Quicksand', sans-serif; }
+
+h1 {
+  font-family: 'Poppins', sans-serif; }
+
+.headerIndex {
+  background: #f6f3f329;
+  position: fixed;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  height: 5.2em;
+  border-bottom-style: solid;
+  border-width: 0.1px;
+  border-color: #ffff;
+  z-index: 1;
+  width: 100%;
+  padding: 0.2em 2em; }
+  .headerIndex a {
+    align-items: baseline; }
+    .headerIndex a img {
+      width: 12em; }
+  .headerIndex nav {
+    width: 100%;
+    align-items: center; }
+    .headerIndex nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      column-gap: 30px;
+      font-size: 95%; }
+      .headerIndex nav ul li a {
+        color: #ffffffd8;
+        text-decoration: none;
+        padding: 0em 0.3em 0.2em 0.3em; }
+  .headerIndex div {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    column-gap: 1em; }
+
+.ulIndex li a:hover {
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: solid #ffffff; }
+
+.activeIndex {
+  color: #ffffff;
+  border-bottom: solid #ffffff 2px; }
+
+@media screen and (max-width: 768px) {
+  .headerIndex {
+    display: flex;
+    justify-content: center;
+    height: 10em;
+    position: sticky;
+    background-color: #e5b457;
+    padding: 2em 0em 1em 0em;
+    font-size: 1.2em; }
+    .headerIndex a {
+      display: flex;
+      justify-content: center;
+      width: 100%; } }
+
+header {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3.5em;
+  border-bottom-style: solid;
+  border-width: 0.1px;
+  box-shadow: 0px 2px 20px #00000013;
+  border-color: #ffff;
+  z-index: 1;
+  width: 100%;
+  padding: 0.2em 2em; }
+  header a {
+    align-items: baseline; }
+    header a img {
+      width: 8em;
+      align-items: center; }
+  header nav {
+    width: 100%;
+    align-items: center; }
+    header nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      column-gap: 30px;
+      font-size: 95%; }
+      header nav ul li a {
+        color: rgba(128, 128, 128, 0.625);
+        text-decoration: none;
+        padding: 0em 0.3em 0.2em 0.3em; }
+  header div {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    column-gap: 1em; }
+
+header nav ul li a:hover {
+  font-weight: 400;
+  color: grey;
+  border-bottom: solid grey 2px; }
+
+.active {
+  color: grey;
+  border-bottom: solid grey 2px; }
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10em;
+    width: 100%; }
+    header a img {
+      width: 15em;
+      padding: 0.5em 0em 1.5em 0em; }
+    header nav {
+      display: flex;
+      justify-content: center;
+      font-size: 0.9em; }
+    header .redesSociales {
+      display: none; } }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2.5em;
+  text-align: center;
+  padding: 6em 4em 6em;
+  background-color: #f7f7f7;
+  height: 100%; }
+  .nosotros h1 {
+    color: #f8b409;
+    font-size: 2.5em;
+    font-weight: 300; }
+  .nosotros hr {
+    display: inline-block;
+    justify-content: center;
+    height: 4px;
+    width: 50px;
+    background-color: #f8b409;
+    border: none;
+    margin: 1.5em auto 1.5em auto; }
+  .nosotros p {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    padding: 1.5em 6em 1em 6em;
+    line-height: 2.5em;
+    font-size: 1.2em; }
+
+.fotoLuis {
+  display: flex;
+  background-image: url("../assets/img/anteojos-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 35em; }
+  .fotoLuis div {
+    width: 60%;
+    padding-top: 10em;
+    padding-left: 6em; }
+    .fotoLuis div a {
+      font-size: 1.5em;
+      color: #ffffff;
+      background-color: rgba(115, 113, 113, 0.849);
+      text-decoration: none;
+      padding: 0.3em 1.2em; }
+    .fotoLuis div a:hover {
+      color: grey;
+      background-color: #ffffff;
+      padding: 0.3em 1.2em; }
+  .fotoLuis img {
+    margin-top: 2em;
+    height: 70%; }
+
+@media screen and (max-width: 768px) {
+  .mainNosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .mainNosotros .nosotros {
+      display: flex; }
+      .mainNosotros .nosotros p {
+        padding: 0; } }
+
+.tituloProductos {
+  background-image: url("../assets/img/imagen-naranja.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 40em;
+  padding-top: 12em;
+  padding-left: 5em; }
+  .tituloProductos h1 {
+    font-size: 4em;
+    font-weight: 800;
+    color: #ffffff; }
+  .tituloProductos h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #ffffff; }
+
+.subtituloProductos {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em; }
+
+.allProductos {
+  margin: 6em auto 8em auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 2em;
+  row-gap: 8em; }
+  .allProductos .productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .allProductos .productos img {
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+  .allProductos .productosModelo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 0.5em; }
+  .allProductos .productosPrecio {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center; }
+
+.infoEnvio {
+  padding: 0.8em 6em;
+  font-size: 0.8em;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #ffc736;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  .allProductos {
+    display: flex;
+    flex-direction: column; } }
+
+.allFaqs h1 {
+  background-color: rgba(128, 128, 128, 0.789);
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 300;
+  padding: 0.5em 0em 0.5em 1em; }
+
+.allFaqs .cuerpoFaqs {
+  display: flex;
+  justify-content: center;
+  column-gap: 3em;
+  width: 90%;
+  margin: 4em auto 4em auto; }
+  .allFaqs .cuerpoFaqs nav {
+    width: 15%;
+    line-height: 2.5em; }
+    .allFaqs .cuerpoFaqs nav ul li {
+      list-style-type: none; }
+      .allFaqs .cuerpoFaqs nav ul li a {
+        text-decoration: none;
+        color: black; }
+  .allFaqs .cuerpoFaqs .preguntas {
+    width: 70%;
+    line-height: 2.5em; }
+    .allFaqs .cuerpoFaqs .preguntas article {
+      margin-bottom: 2.5em; }
+      .allFaqs .cuerpoFaqs .preguntas article ul li {
+        list-style-type: none; }
+
+@media screen and (max-width: 768px) {
+  .cuerpoFaqs nav {
+    display: none; } }
+
+.tituloContacto {
+  background-image: url("../assets/img/modelo-blanco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30em;
+  color: #414141;
+  padding: 5em 0em 3.5em 7em; }
+  .tituloContacto h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 0em 0em 1em 0em; }
+  .tituloContacto article {
+    font-size: 1.2em;
+    line-height: 1.8em; }
+  .tituloContacto h3 {
+    padding-top: 1.5em;
+    font-size: 1.4em; }
+
+.formMap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.8em;
+  width: 100%;
+  margin: 4em 0em 5em 0em;
+  height: 100%; }
+
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%; }
+  .form .formAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1em;
+    width: 100%; }
+    .form .formAll .input1 {
+      border: none;
+      border-bottom: 1px solid #c8c8c8;
+      font-size: 1.2em;
+      margin: 0.2em 0em;
+      padding: 0.3em;
+      outline: none;
+      background-color: #e6e6e688; }
+    .form .formAll .input2 {
+      font-size: 1.2em; }
+    .form .formAll .input3 {
+      border: 1px solid #c8c8c8;
+      outline: none;
+      background-color: #e6e6e688;
+      font-size: 1.2em; }
+    .form .formAll .botonEnviar {
+      width: 30%;
+      padding: 0.3em; }
+
+.map {
+  width: 40%;
+  height: 100%; }
+  .map .contactoMap {
+    width: 100%;
+    height: 30em; }
+
+@media screen and (max-width: 768px) {
+  .tituloContacto {
+    background-size: auto; }
+  .formMap {
+    display: flex;
+    flex-direction: column; }
+    .formMap .form {
+      width: 80%;
+      margin-bottom: 3em; }
+    .formMap .map {
+      width: 80%; } }
+
+.carousel-caption {
+  width: 100%;
+  top: 40%; }
+  .carousel-caption p {
+    font-size: 1.3em; }
+  .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.278);
+    padding: 0.5em 1.5em;
+    font-size: 1.5em;
+    line-height: 4em; }
+  .carousel-caption a:hover {
+    color: rgba(0, 0, 0, 0.688);
+    background-color: rgba(255, 255, 255, 0.278); }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    object-fit: cover; }
+    .carousel img {
+      width: auto;
+      height: 100vh;
+      object-fit: cover;
+      object-position: left; } }
+
+.allFooter {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4em;
+  background-color: #636262;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-family: 'Poppins', sans-serif;
+  padding: 2.5em 4em 1em;
+  line-height: 1.8em; }
+  .allFooter ul {
+    list-style-type: none; }
+
+.logoFooter {
+  width: 22%;
+  justify-content: center; }
+  .logoFooter img {
+    width: 100%; }
+  .logoFooter div {
+    text-align: center; }
+
+.textFooter {
+  display: flex;
+  justify-content: end;
+  width: 90%; }
+
+.infoFooter {
+  width: 50%; }
+
+.redesFooter {
+  width: 25%; }
+  .redesFooter a {
+    text-decoration: none;
+    padding: 0em 0.8em 0em 0em; }
+
+.copyrightFooter {
+  color: #ffffff;
+  text-align: center;
+  background-color: #636262;
+  font-size: small;
+  padding: 0em 0em 1.3em 0em; }
+
+@media screen and (max-width: 768px) {
+  .allFooter {
+    width: 100%;
+    padding: 1em; }
+  .logoFooter {
+    display: none; }
+  .infoFooter {
+    width: 70%; }
+  .redesFooter {
+    width: 30%; } }

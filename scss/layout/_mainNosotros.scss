@@ -1,0 +1,77 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5em;
+    text-align: center;
+    padding: 6em 4em 6em;
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    h1 {
+        color: #f8b409;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    hr {
+        display: inline-block;
+        justify-content: center;
+        height: 4px;
+        width: 50px;
+        background-color: #f8b409;
+        border: none;
+        margin: 1.5em auto 1.5em auto;
+    }
+    p {
+        display: flex;
+        text-align: justify;
+        width: 100%;
+        padding: 1.5em 6em 1em 6em;
+        line-height: 2.5em;
+        font-size: 1.2em;
+    }
+}
+
+.fotoLuis {
+    display: flex;
+    background-image: url("../assets/img/anteojos-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35em;
+    div {
+        width: 60%;
+        padding-top: 10em;
+        padding-left: 6em;
+        a {
+            font-size: 1.5em;
+            color: #ffffff;
+            background-color: rgba(115, 113, 113, 0.849);
+            text-decoration: none;
+            padding: 0.3em 1.2em;
+        }
+        a:hover {
+            color: grey;
+            background-color: #ffffff;
+            padding: 0.3em 1.2em;
+        }
+    }
+    img {
+        margin-top: 2em;
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mainNosotros {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .nosotros {
+            display: flex;
+            p {
+                padding: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.allFooter {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4em;
+    background-color: rgb(99, 98, 98);
+    color: #ffffff;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5em 4em 1em;
+    line-height: 1.8em;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.logoFooter {
+    width: 22%;
+    justify-content: center;
+    img {
+        width: 100%;
+    }
+    div {
+        text-align: center;
+    }
+}
+
+.textFooter {
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+
+.infoFooter {
+    width: 50%;
+}
+
+.redesFooter {
+    width: 25%;
+    a {
+        text-decoration: none;
+        padding: 0em 0.8em 0em 0em;
+    }
+}
+
+.copyrightFooter {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(99, 98, 98);
+    font-size: small;
+    padding: 0em 0em 1.3em 0em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .allFooter {
+        width: 100%;
+        padding: 1em;
+    }
+    .logoFooter {
+        display: none;
+    }
+    .infoFooter {
+        width: 70%;
+    }
+    .redesFooter {
+        width: 30%;
+    }
+
+}

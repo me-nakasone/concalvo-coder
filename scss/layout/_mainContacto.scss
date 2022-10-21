@@ -1,0 +1,98 @@
+.tituloContacto {
+    background-image: url("../assets/img/modelo-blanco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30em;
+    color: rgb(65, 65, 65);
+    padding: 5em 0em 3.5em 7em;
+    h1 {
+        font-size: 2.5em;
+        font-weight: 500;
+        padding: 0em 0em 1em 0em;
+    }
+    article {
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+    h3 {
+        padding-top: 1.5em;
+        font-size: 1.4em;
+    }
+}
+
+.formMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.8em;
+    width: 100%;
+    margin: 4em 0em 5em 0em;
+    height: 100%;
+}
+
+.form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    .formAll {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        row-gap: 1em;
+        width: 100%;
+        .input1 {
+            border: none;
+            border-bottom: 1px solid #c8c8c8;
+            font-size: 1.2em;
+            margin: 0.2em 0em;
+            padding: 0.3em;
+            outline: none;
+            background-color: #e6e6e688;
+        }
+        .input2 {
+            font-size: 1.2em;
+        }
+        .input3 {
+            border: 1px solid #c8c8c8;
+            outline: none;
+            background-color: #e6e6e688;    
+            font-size: 1.2em;
+        }
+        .botonEnviar {
+            width: 30%;
+            padding: 0.3em;
+        }
+    }
+}
+
+.map {
+    width: 40%;
+    height: 100%;
+    .contactoMap {
+        width: 100%;
+        height: 30em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tituloContacto {
+        background-size: auto;
+    }
+    .formMap {
+        display: flex;
+        flex-direction: column;
+        .form {
+            width: 80%;
+            margin-bottom: 3em;
+        }
+        .map {
+            width: 80%;
+        }
+    }
+}

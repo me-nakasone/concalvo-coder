@@ -1,0 +1,44 @@
+.allFaqs {
+    h1 {
+        background-color: rgba(128, 128, 128, 0.789);
+        color: #ffffff;
+        font-size: 2em;
+        font-weight: 300;
+        padding: 0.5em 0em 0.5em 1em;
+    }
+    .cuerpoFaqs {
+        display: flex;
+        justify-content: center;
+        column-gap: 3em;
+        width: 90%;
+        margin: 4em auto 4em auto;
+        nav {
+            width: 15%;
+            line-height: 2.5em;
+            ul li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    .preguntas {
+        width: 70%;
+        line-height: 2.5em;
+        article {
+            margin-bottom: 2.5em;
+            ul li {
+                list-style-type: none;
+            }
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .cuerpoFaqs nav {
+            display: none;
+    }
+}
