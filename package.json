@@ -243,5 +243,13 @@
     "yallist": "^4.0.0",
     "yargs": "^17.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-nakasone/concalvo-coder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/me-nakasone/concalvo-coder/issues"
+  },
+  "homepage": "https://github.com/me-nakasone/concalvo-coder#readme",
   "description": ""
 }
